@@ -1,26 +1,17 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+## Fully Functiononing firebase CRUD application
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+This project was built by following Paul Halliday's online course Learn Ionic3 from Scratch.
 
-### With the Ionic CLI:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+### How to run the project with the Ionic CLI:
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+Download the zip file or fork the project and pull to a local directory, run 'npm install' from within the local directory and then run the command ionic lab or ionic serve. This will start a local development server.
 
-Then, to run it, cd into `myBlank` and run:
+If you open a browser and navigate to localhost:8100/ionic-lab you should find the app running.
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+Thanks for viewing the app and this readme.
 
-Substitute ios for android if not on a Mac.
+(this app was built with Ionic3 and Angularfire2)
 
