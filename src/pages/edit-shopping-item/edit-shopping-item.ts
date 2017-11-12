@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { Subscription } from "rxjs/subscription";
 // DB realtime cloud db library for interacting with Firebase2
 import { AngularFireDatabase, FirebaseObjectObservable} from 'angularfire2/database';
 // Interfaces, contracts and models
 import { ShoppingItem } from './../../models/shopping-item/shopping-item.interface';
-import { Subscription } from "rxjs/subscription";
+
+
 
 @Component({
   selector: 'page-edit-shopping-item',
@@ -50,5 +52,4 @@ export class EditShoppingItemPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad EditShoppingItemPage');
   }
-
 }
