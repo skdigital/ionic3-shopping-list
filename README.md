@@ -2,6 +2,8 @@
 
 ## Fully Functiononing firebase CRUD application
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/skdigital/ionic3-shopping-list.svg)](https://greenkeeper.io/)
+
 This project was built by following Paul Halliday's online course Learn Ionic3 from Scratch.
 
 
